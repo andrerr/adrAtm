@@ -1,3 +1,11 @@
+/* 
+    Document   : RemoteAutomationV1.0
+    Created on : Mar 7, 2013, 10:19:46 PM
+    Author     : paulo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
 root { 
     display: block;
 }
@@ -16,10 +24,18 @@ root {
         font-family: arial;
 }
 
-#porta2_estado , #porta2_titulo , #porta3_estado , #porta3_titulo , #porta4_estado , #porta4_titulo , 
-#porta5_estado , #porta5_titulo , #porta6_estado , #porta6_titulo , #porta7_estado , #porta7_titulo , 
-#porta8_estado , #porta8_titulo, #porta9_estado , #porta9_titulo {
+#porta2_estado , #porta2_titulo , #porta3_estado , #porta3_titulo , #porta4_estado , #porta4_titulo , #porta5_estado , #porta5_titulo , #porta6_estado , #porta6_titulo , #porta7_estado , #porta7_titulo , #porta8_estado , #porta8_titulo, #porta9_estado , #porta9_titulo {
     visibility: hidden;
+}
+
+#float-image {
+position: fixed;
+top: 0;
+right: 0;
+width: 166px;
+height: 40px;
+background: url(PoweredBy_RoboCore_small.png) no-repeat;
+display: block;
 }
 
 div.rele_ligado {
@@ -102,46 +118,3 @@ div.porta_desligada {
 }.botao:active {
 	
 }
-@font-face {
-      font-family: 'Sigmar One';
-      font-style: normal;
-      font-weight: 400;
-      src: local('Sigmar One'), local('SigmarOne'), url(http://themes.googleusercontent.com/static/fonts/sigmarone/v4/aRAZJs6CY7SV6eSg6Wx4jxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
-    }
-    body{
-        margin: 0;
-        font: 14px Lucida sans;
-        background: #333 url('https://googledrive.com/host/0B7l2d9Z__rb4ZUdDSXRwWmxaejA/') no-repeat;
-        -webkit-background-size: cover;
-          -moz-background-size: cover;
-            -o-background-size: cover;
-                background-size: cover;
-        color: #fff;
-    }
-    a, a:active, a:focus{
-        text-decoration: none;
-        color: #fafafa;
-    }
-    #logo{
-        font: 30px 'Sigmar One';
-        text-align: center;
-        padding: 0;
-        margin: 5em 0 0;
-        text-shadow: rgba(0,0,0,1) 0 0 5px;
-    }
-    #wrap{
-        margin: 0 auto;
-        max-width: 50%;
-        background: rgba(255,255,255,.3);
-        border-radius: 5px;
-        text-shadow: rgba(0,0,0,.5) 1px 1px 0;
-        box-shadow: rgba(0,0,0,.2) 0 0 3px;
-        text-align: center;
-        padding: 3em 1em;
-    }
-    hr{
-        margin: 1em;
-        border: 0;
-        border-top: 1px rgba(0,0,0,.2) solid;
-        border-bottom: 1px rgba(255,255,255,.2) solid;
-    }
